@@ -1,0 +1,28 @@
+
+
+:root {
+  /* Primary Colors */
+  --color-dark-blue: #1B263B; /* Dark Blue or Navy */
+  
+  /* Secondary Colors */
+  --color-burgundy: #800020; /* Burgundy or Deep Red */
+  --color-slate-gray: #708090; /* Slate Gray */
+  
+  /* Accent Colors */
+  --color-gold: #DAA520; /* Gold or Mustard */
+  --color-gray: #D3D3D3; /* Light Gray */
+  --color-white: #FFFFFF; /* White */
+  
+  /* Alert Colors */
+  --color-red: #FF4500; /* Bright Red */
+}
+
+/* Example usage in global styles */
+
+body {
+  background-color: var(--color-gray);
+  color: var(--color-slate-gray);
+  font-family: 'League Spartan', sans-serif;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,37 @@
+---------------------------------------------------------------
+fonts:
+---------------------------------------------------------------
+logo font : League Spartan
+
+---------------------------------------------------------------
+Colors Theme
+---------------------------------------------------------------
+Primary Colors:
+
+    Dark Blue or Navy (#1B263B):the header, main buttons, and focus elements.
+
+Secondary Colors:
+
+    Burgundy or Deep Red (#800020): secondary buttons or hover states on primary buttons. 
+    Slate Gray (#708090): Apply this to text elements, form borders, or secondary text. 
+
+Accent Colors:
+
+    Gold or Mustard (#DAA520): This should be used sparingly for highlight elements or icons.
+    Light Gray (#D3D3D3): Ideal for form backgrounds or dividers.
+    White (#FFFFFF): Use for main backgrounds, input fields.
+
+Alert Colors:
+
+    Bright Red (#FF4500): error messages, form validation errors, and critical alerts.
+----------------------------------------------------------------
+
+23/08/2024
+----------------------------------------------------------------
+1- MockUps: Landing Page + Registeration (Done)
+2- implement basic registeration with verification email
+3- unit test
+
+Bonus:
+login
+----------------------------------------------------------------

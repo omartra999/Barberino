@@ -1,0 +1,76 @@
+.app__register-form{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: auto auto;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #efefef;
+    justify-content: center;
+    height: fit-content;
+    box-shadow: inset;
+}
+
+.app__register-form h2{
+    align-self: center;
+    font-size: 300%;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.app__register-form-group {
+    margin-bottom: 20px;
+    align-items: center;
+    align-self: start;
+}
+
+.app__register-form-group label {
+    font-weight: bold;
+    font-size: large;
+    font-family: 'League Spartan', sans-serif;
+    margin-right: 10px;
+}
+.app__register-form-group input{
+    
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 90%;
+    margin-top: 10px;
+    font-size: large;
+    font-family: 'League Spartan', sans-serif;
+}
+.app__register-button{
+    display: flex;
+    justify-content: center;
+}
+
+.app__register-button button{
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+    padding: 15px 30px; 
+    background-color: var(--color-dark-blue); 
+    color: #fff; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    text-align: center; 
+    transition: background-color 0.3s ease; 
+}
+
+.app__register-button button:hover{
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+    padding: 15px 30px; 
+    background-color: rgb(61, 61, 228); 
+    color: #fff; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    text-align: center; 
+    transition: background-color 0.3s ease; 
+}
+

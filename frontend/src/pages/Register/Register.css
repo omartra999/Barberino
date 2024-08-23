@@ -1,0 +1,4 @@
+.app__register{
+    display: flex;
+    flex-direction: row;
+}
