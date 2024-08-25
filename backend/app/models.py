@@ -6,6 +6,7 @@ class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     firstname = db.Column(db.String(255), nullable=False)
     lastname = db.Column(db.String(255), nullable=False)
+    username = db.Column(db.String(255), unique = True, nullable=False)
     email = db.Column(db.String(255),unique = True, nullable=False)
     password = db.Column(db.String(255),unique = True, nullable=False)
     location = db.Column(db.String(255))
@@ -19,8 +20,13 @@ class User(db.Model):
     def check_password_hash(self, password_hash):
         return check_password_hash(self.password, password_hash)
     
-    def __init__(self, username):
+    def __init__(self, first_name, last_name, email, username, password):
+        self.firstname = first_name
+        self.lastname = last_name
         self.username = username
+        self.set_password(password)
+        self.email = email
+
 
 class Barber(db.Model):
     id = db.Column(db.Integer, primary_key=True)
