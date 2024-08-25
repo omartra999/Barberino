@@ -8,7 +8,7 @@ class BasicTests(unittest.TestCase):
         self.client = self.app.test_client()
 
     def test_home(self):
-        response = self.client.get('/api/registerUser')
+        response = self.client.get('/api/register')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json, {'message': 'hello'})
 

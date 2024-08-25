@@ -35,3 +35,9 @@ Alert Colors:
 Bonus:
 login
 ----------------------------------------------------------------
+
+25/08/2024
+----------------------------------------------------------------
+Basic Registeration with sending verification email is finally implemented
+unit tests are also implemented
+

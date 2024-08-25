@@ -9,7 +9,7 @@ def send_email(to, subject, body):
             subject=subject,
             sender=current_app.config['MAIL_DEFAULT_SENDER'],
             recipients=[to],
-            body=body
+            html=body
         )
         mail.send(msg)
         print("Email sent successfully.")

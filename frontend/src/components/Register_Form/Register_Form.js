@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import "./Register_Form.css"
 
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000/api';
+
 const RegisterForm = () => {
     const[formData, setFormData] = useState({
         last_name: "",
@@ -28,7 +30,7 @@ const RegisterForm = () => {
         }
 
         try{
-            const response = await fetch('http://localhost:8000/register',{
+            const response = await fetch(`${API_BASE_URL}/register`,{
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -43,7 +45,7 @@ const RegisterForm = () => {
             }
         }catch(error){
             console.error('Error registering: ', error);
-            alert("An error occurred during registration")
+            alert("An error occurred during registration: ", error);
         }
         
     }
